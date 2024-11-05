@@ -1,0 +1,38 @@
+.usres-list{
+ margin: 50px auto;
+ width: 400px;
+ height: 400px;
+ padding: 20px;
+ background-color: rgba(105, 235, 240, 0.848);
+ box-shadow: 0 0 13px black;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.usres-list button{
+    margin: 10px auto;
+    background-color: #ed1aa7;
+    color: antiquewhite;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.usres-list button:hover{
+    background-color: whitesmoke;
+    border: 2px solid #f530b3;
+    color: #f007a2;
+    font-size: 18px;
+
+}
+
+.user-card{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
